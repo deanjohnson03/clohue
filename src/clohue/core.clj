@@ -10,8 +10,6 @@
 
 (def bridge (bridge-memo))
 
-(def user "7ATuEm2fRARZFaUPrQagul0OEMWCRjTDLfpR2b9-")
-
 (defn create-user [{ip :internalipaddress} device-type]
   "Create a new user to use to authenticate against the Hue Bridge"
   (first (json/read-json (:body (client/post (str "http://" ip "/api")
