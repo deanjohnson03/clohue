@@ -114,7 +114,7 @@
 
 ;; (get-in x [:state :on])
 
-;; [{:success {:username 7ATuEm2fRARZFaUPrQagul0OEMWCRjTDLfpR2b9-}}]
+;; [{:success {:username <long string>}}]
 
 ;; (defn store-username [username])
 
